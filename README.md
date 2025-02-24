@@ -44,7 +44,7 @@ Select an Option:
   results/cracker/good_non_access.txt (login only),
   results/cracker/failed_attempts.txt, and results/cracker/error_log.txt
 
-Notes
+Notes :
   Run the tool in a folder where you have write permissions (e.g., Desktop).
   On Windows, if you see a security warning, click "Run anyway".
 
