@@ -33,18 +33,20 @@ A powerful tool for SSH checking and cracking, provided as an executable (EXE) f
 Select an Option:
   Type 1 for Checker, 2 for Cracker, or 3 to exit, then press Enter.
 
-4.Follow the Prompts:
-  For Checker: Enter the IP list file path, thread count, and batch size.
-  For Cracker: Enter IP list, user list, password list, thread count, timeout, delay, and optionally an SSH key path.
-  password list (e.g., passwords.txt), thread count, timeout, delay, and optionally an SSH key path.
+4. **Follow the Prompts**:
+   - For **Checker**: Enter the IP list file path (e.g., `ip_list.txt`), thread count, and batch size.
+   - For **Cracker**: Enter the IP list file path (e.g., `ip_list.txt`), user list (e.g., `users.txt`), password list (e.g., `passwords.txt`), thread count, timeout, delay, and optionally an SSH key path.
 
-5.Check Results:
-  Checker: results/checker/good.txt (active SSH) and results/checker/bad.txt (inactive)
-  Cracker: results/cracker/good_access.txt (full access),
-  results/cracker/good_non_access.txt (login only),
-  results/cracker/failed_attempts.txt, and results/cracker/error_log.txt
+5. **Check Results**:
+   - **Checker**: 
+     - `results/checker/good.txt` (active SSH)
+     - `results/checker/bad.txt` (inactive)
+   - **Cracker**: 
+     - `results/cracker/good_access.txt` (full access)
+     - `results/cracker/good_non_access.txt` (login only)
+     - `results/cracker/failed_attempts.txt`
+     - `results/cracker/error_log.txt`
 
-Notes :
-  Run the tool in a folder where you have write permissions (e.g., Desktop).
-  On Windows, if you see a security warning, click "Run anyway".
-
+6. **Notes**:
+   - Run the tool in a folder where you have write permissions (e.g., Desktop).
+   - On Windows, if you see a security warning, click "Run anyway".
